@@ -54,7 +54,7 @@ It will cover the following few things.
 - On the other hand if we want to make it a bit secure than we can use a VPN Tunnel or we can use a private circuit communication with the help of my cloud service provider that will be over a fiber optic cable. It would be costly but it would give me more throughput.
 - Think of cloud as a **WAN**.
 
-![image](Images/image1)
+![image](Images/image1.png)
 
 ---
 ### Who are the Cloud Providers?
@@ -90,7 +90,7 @@ It will cover the following few things.
 - Running out of storage in your on prem storage center is normal so mostly people use cloud for storage purposes.
 - Sometimes we have a high compute demand on prem and suppose we pay extra Gs for it and when we don't need the compute anymore our hardware goes waste. But when it is on cloud we can add thousands of machines easily.
 
-![[image2.png]]
+![image](Images/image2.png)
 
 - There are two types of spending one is based on ***capacity*** (on-prem) and the other one is based on ***consumption***.
 
@@ -155,7 +155,7 @@ It will cover the following few things.
 - Cloud Support
 ---
 
-![[image3.png]]
+![image](Images/image3.png)
 
 - Management Plan is the line blow which things work under the vender where as the above few things are under the user. So, if something happens in the respective area of the vender or the user then they are responsible for it.
 - SLA (***Service Level Agreement***)
@@ -179,7 +179,7 @@ It will cover the following few things.
 - V-NET -- Virtual Network, VPC -- Virtual Private Cloud
 - Boxes over lapping the main box lines are gateways
 
-![[image4.png]]
+![image](Images/image4.png)
 
 - NSG -- Network Security Group, ACL -- Access control list
 - Big Box is the network, small boxes are the subnets.
@@ -188,9 +188,9 @@ It will cover the following few things.
 - FW -- Firewall 
 - Following image is the example of Cloud Networking
 
-![[image5.png]]
+![image](Images/image5.png)
 
-![[image6.png]]
+![image](Images/image6.png)
 
 - For storage AWS has ***S3 Buckets***, ***EFS***, and ***EBS***.
 - Azure has ***Storage Account*** and ***Management Disks***.
@@ -213,7 +213,7 @@ It will cover the following few things.
 - Availability zones == Data Centers
 - Now suppose that if your data centers fails you have other availability zones that your machine can use to run properly.
 
-![[image7.png]]
+![image](Images/image7.png)
 
 - If for any reason the region isn't working then the work load can be shifted to an other region.
 
@@ -238,7 +238,7 @@ It will cover the following few things.
 - In platform as a service you (user) is responsible for managing the workload only.
 - In software as a service the provider is responsible for managing the full stack. You may be responsible for managing customizations. You are still responsible for managing customizations, usage, and adhering to good practices and compliance.
 
-![[image8.png]]
+![image](Images/image8.png)
 
 - ***Which of these is the responsibility of both the cloud provider and the customer?***
 	- ***Standards compliance***
@@ -299,15 +299,15 @@ It will cover the following few things.
 - Google --> Roles, AWS --> Policies (Group of permissions that can be assigned)
 - A user account managed in another system, such as Active Directory, that is synchronized with the cloud provider is known as federated user.
 
-![[image9.png]]
+![image](Images/image9.png)
 
 - Some what like on prem.
 
-![[image12.png]]
+![image](Images/image12.png)
 
-![[image10.png]]
+![image](Images/image10.png)
 
-![[image11.png]]
+![image](Images/image11.png)
 
 ---
 ---
