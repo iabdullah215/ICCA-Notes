@@ -54,7 +54,7 @@ It will cover the following few things.
 - On the other hand if we want to make it a bit secure than we can use a VPN Tunnel or we can use a private circuit communication with the help of my cloud service provider that will be over a fiber optic cable. It would be costly but it would give me more throughput.
 - Think of cloud as a **WAN**.
 
-![[image1.png]]
+![image](Images/image1)
 
 ---
 ### Who are the Cloud Providers?
