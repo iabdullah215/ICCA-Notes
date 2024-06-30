@@ -54,7 +54,7 @@ It will cover the following few things.
 - On the other hand if we want to make it a bit secure than we can use a VPN Tunnel or we can use a private circuit communication with the help of my cloud service provider that will be over a fiber optic cable. It would be costly but it would give me more throughput.
 - Think of cloud as a **WAN**.
 
-![[Pasted image 20240621215932.png]]
+![[image1.png]]
 
 ---
 ### Who are the Cloud Providers?
@@ -90,7 +90,7 @@ It will cover the following few things.
 - Running out of storage in your on prem storage center is normal so mostly people use cloud for storage purposes.
 - Sometimes we have a high compute demand on prem and suppose we pay extra Gs for it and when we don't need the compute anymore our hardware goes waste. But when it is on cloud we can add thousands of machines easily.
 
-![[Pasted image 20240621231704.png]]
+![[image2.png]]
 
 - There are two types of spending one is based on ***capacity*** (on-prem) and the other one is based on ***consumption***.
 
@@ -155,7 +155,7 @@ It will cover the following few things.
 - Cloud Support
 ---
 
-![[Pasted image 20240624221535.png]]
+![[image3.png]]
 
 - Management Plan is the line blow which things work under the vender where as the above few things are under the user. So, if something happens in the respective area of the vender or the user then they are responsible for it.
 - SLA (***Service Level Agreement***)
@@ -179,7 +179,7 @@ It will cover the following few things.
 - V-NET -- Virtual Network, VPC -- Virtual Private Cloud
 - Boxes over lapping the main box lines are gateways
 
-![image](Images/Pasted image 20240625210631.png)
+![[image4.png]]
 
 - NSG -- Network Security Group, ACL -- Access control list
 - Big Box is the network, small boxes are the subnets.
@@ -188,11 +188,127 @@ It will cover the following few things.
 - FW -- Firewall 
 - Following image is the example of Cloud Networking
 
-![[Pasted image 20240625213518.png]]
+![[image5.png]]
 
-![[Pasted image 20240625225055.png]]
+![[image6.png]]
 
 - For storage AWS has ***S3 Buckets***, ***EFS***, and ***EBS***.
 - Azure has ***Storage Account*** and ***Management Disks***.
 - GCP has ***Storage Bucket*** and ***Compute Engine Disks and Images***.
 - ***EBS -- Elastic Block Storage*** is used for storing the disk for a EC2.
+
+---
+
+### Scalability and Availability:
+---
+It will cover the following few things.
+- Regional Computing.
+- Cloud Scale.
+- Cloud Availability.
+---
+
+- In the context of regional cloud computing, a region refers to a geographical area where a cloud service provider, such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP), has established data centers and infrastructure to offer its services.
+- Scaling can be exampled as dividing the workload (one vm) on multiple other workloads (more than one vm).
+- Being available when needed is known as Availability.
+- Availability zones == Data Centers
+- Now suppose that if your data centers fails you have other availability zones that your machine can use to run properly.
+
+![[image7.png]]
+
+- If for any reason the region isn't working then the work load can be shifted to an other region.
+
+---
+---
+
+## 2. Cloud Management Concepts
+
+### Cloud Shared Responsibility Model
+---
+It will cover the following few things.
+- Shared responsibility model
+- Management Responsibility
+- Security Responsibility
+- Resiliency Responsibility
+- Work Load Responsibility 
+---
+
+- The cloud provider is always responsible for managing and securing facility, infrastructure, virtualization, and cloud management plane.
+- You (user) on the other hand are always responsible for managing your identities, and access to your subscription.
+- In infrastructure as a service we you (user) is responsible for managing virtual machines and above.
+- In platform as a service you (user) is responsible for managing the workload only.
+- In software as a service the provider is responsible for managing the full stack. You may be responsible for managing customizations. You are still responsible for managing customizations, usage, and adhering to good practices and compliance.
+
+![[image8.png]]
+
+- ***Which of these is the responsibility of both the cloud provider and the customer?***
+	- ***Standards compliance***
+- ***Which of the following is not always the responsibility of the cloud provider?***
+	- ***Virtual machine***
+---
+
+### Managing Cloud Assets 
+---
+It will cover the following few things.
+- Provisioning Resources
+- Configuring the resources
+- Maintaining Resources
+- Monitoring Resources
+-  Change Management 
+---
+
+- You configure the resources the same way you provision them.
+- In maintain resources you have to maintain ***Code Base***, ***Data***, and ***Security***.
+- Governance is critical in the cloud.
+-  Tools are available for maintaining change - platform specific and vendor natural.
+
+- ***Which of the following are in the data plane for IaaS but not PaaS? (Choose two)***
+	- ***Services***
+	- ***Virtual Operating Systems***
+- ***Which of the following is not a management tool provided by the cloud providers?***
+	- ***Windows Application***
+
+---
+
+### Monitoring and Alerts 
+---
+It will cover the following few things.
+- Cloud Monitoring
+- Unified Monitoring
+- Proactive Resource Management
+---
+
+- Cloud Monitoring has resource and system monitoring.
+- All these give a framework to view everything. Like graphs and all.
+- Unified Monitoring tools --> Nagios, Splunk, and PRTG.
+- Proactive Resource Management has Cloud Automation and Cloud Alerting.
+- Cloud Automation is made on the Cloud Alerting.
+
+- ***CloudWatch is the monitoring tool for which cloud provider?***
+	- ***AWS***
+
+---
+
+## Cloud Identity and Access Management
+---
+It will cover the following few things.
+- Cloud-Based Identity
+- Access Management 
+---
+
+- Under the root there are two major components i.e. ***Identity Component*** and ***Recourse Component***.
+- Google --> Roles, AWS --> Policies (Group of permissions that can be assigned)
+- A user account managed in another system, such as Active Directory, that is synchronized with the cloud provider is known as federated user.
+
+![[image9.png]]
+
+- Some what like on prem.
+
+![[image12.png]]
+
+![[image10.png]]
+
+![[image11.png]]
+
+---
+---
+
