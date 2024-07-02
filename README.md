@@ -230,7 +230,7 @@ What will be covered in it.
 - Other Services
 ---
 
-![image13.png](Image/image13.png)
+![image13.png](Images/image13.png)
 
 - ***Lambda*** in ***AWS***, ***Function Apps*** in ***AZURE***, and ***Cloud Function*** in ***GCP*** are all the same.
 - The lower row is the container related Platform as a service.
