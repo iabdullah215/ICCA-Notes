@@ -102,7 +102,7 @@ It will cover the following few things.
 ---
 ---
 
-### 2. Cloud Management
+### Cloud Management
 
 ### Managing Cloud Resources
 ---
@@ -216,6 +216,48 @@ It will cover the following few things.
 ![image](Images/image7.png)
 
 - If for any reason the region isn't working then the work load can be shifted to an other region.
+
+---
+
+
+### Cloud Platform Services
+---
+What will be covered in it.
+
+- Platform as a service.
+- Application Hosting.
+- Data Hosting
+- Other Services
+---
+
+![image13.png](Image/image13.png)
+
+- ***Lambda*** in ***AWS***, ***Function Apps*** in ***AZURE***, and ***Cloud Function*** in ***GCP*** are all the same.
+- The lower row is the container related Platform as a service.
+
+![image14.png](Images/image14.png)
+
+- In the above picture there are both ***relational*** and ***non-relational*** approaches.
+
+---
+
+### Cloud Application Services
+---
+
+What will be covered.
+
+- Software as a service
+- Salesforce
+- Microsoft 365
+- G Suite
+- Collaboration
+- Others
+---
+
+- You not building it you are buying it.
+-  Microsoft 365 provides Low-Code and No-Code Customization.
+- G Suite has similar offers has Microsoft 365.
+- Collaboration Tools -- Slack, Zoom, Meet, Microsoft Team.
 
 ---
 ---
