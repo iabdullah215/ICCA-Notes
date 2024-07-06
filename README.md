@@ -354,3 +354,200 @@ It will cover the following few things.
 ---
 ---
 
+## Fundamentals of Cloud Identity, Security, and Compliance
+
+### Fundamentals of the Cloud Security
+---
+It will cover the following things.
+
+- Shared Responsibility Model
+- Secure Cloud Resources
+- Defense in depth.
+---
+
+- For the security point of view it depends on who is responsible for what.
+- Under the Control Plane all the things are responsibility of the cloud provider.
+
+![image15.png](Images/image15.png)
+
+- In IaaS the user or the consumer is responsible for the above three.
+- In PaaS the user only has to care about the workload.
+- Control Plane will help me interact with the resources.
+- Data inside the resources will be accessed according to the data plan.
+
+ ![image16.png](Images/image16.png)
+
+- Encryption at transit and Encryption at rest is the basic.
+---
+
+### Common Cloud Attacks
+---
+It will cover the following things.
+
+- Attack Targets
+- Attack Methods
+---
+
+- Attack targets are ***Identities***, ***Data***, and ***Services***.
+- Attacks on Identity mostly happens two Software as a Service (SaaS) identities similarly it happens in Data Plane Identities as well.  
+- Common attacks methods are ***misconfigurations***, ***account*** ***hijacking***, ***service*** ***hijacking***, and ***malwares***.  
+---
+
+### Identity and Access Management
+---
+It will cover the following things.
+
+- Accessing and Managing Cloud Resources
+- Managing Cloud Users
+- Managing Access to Resources
+---
+
+![image17.png](Images/image17.png)
+
+![image18.png](Images/image18.png)
+
+### Identity and Access Management
+---
+It will cover the following things.
+
+- Accessing and Managing Cloud Resources
+- Managing Cloud Users
+- Managing Access to Resources
+---
+
+![image19.png](Images/image19.png)
+
+
+| Account Vulnerabilities     | Login Vulnerabilities             |
+| --------------------------- | --------------------------------- |
+| Weak Passwords              | IP Address and Location anomalies |
+| Leaked Credentials          | Password spraying                 |
+| General Threat Intelligence | Brute force attacks               |
+
+![image20.png](Images/image20.png)
+
+- Managing Identities 
+
+| AWS          | AZURE                             | GCP             |
+| ------------ | --------------------------------- | --------------- |
+| IAM Users    | Azure AD Users                    | Google Account  |
+| IAM Roles    | Azure AD Service Principle        | Service Account |
+| IAM Polices  | Azure AD Managed Identities Roles | Roles           |
+| ------------ | Roles                             | Policy          |
+
+- Cloud Identity Protection Services
+
+| AWS                | AZURE                | GCP                         |
+| ------------------ | -------------------- | --------------------------- |
+| Cloud Trials       | Identity Protection  | Advanced Protection Program |
+| Trusted Advisors   | Azure AD Logs        | G-Suite alert center        |
+| ------------------ | -------------------- | Titan Security Keys         |
+
+---
+
+### Responding to Identity Compromises
+---
+It will cover the following things.
+
+- The Five R's
+- The Response Process
+---
+
+**R1** -- `Revoke` -- Revoke the permissions -- Isolation 
+**R2** -- `Reset` -- Sessions Tokens -- API Keys -- Resources access keys -- Try Rest
+**R3** -- `Review` -- Review with IT and stake holders 
+**R4** -- `Remediate` -- Fix it -- Reporting -- Lesson Learned
+**R5** -- `Return` -- Return to operating state -- Monitor 
+
+---
+
+### Data Protection
+---
+It will cover the following things.
+
+- Types of Cloud Data
+- Protecting Data at Rest
+- Protecting Data in Transit
+- Connecting to Data
+- Data Protection Best Practices
+---
+
+- Types of Cloud Data
+
+| Files         | Relational  | Non-relational | Big Data          | Sensitive    |
+| ------------- | ----------- | -------------- | ----------------- | ------------ |
+| Blobs         | Managed     | Managed        | Semi - Structure  | Keys         |
+| Buckets       | Proprietary | Proprietary    | ----------------- | Certificates |
+| File Services | IaaS Hosted | IaaS Hosted    | ----------------- | Audit        |
+
+- A relational database management system (RDBMS) organizes data into separate tables, allowing for flexible access and reassembly according to user-defined relational tables. In contrast, a non-relational database employs an architecture that does not rely on tables as its primary structure.
+
+![image21.png](Images/image21.png)
+
+- Data Protection Bets Practices include ***Limiting Access***, ***Encryption***, ***Protection from failure***, and ***Auditing***.
+
+***What sort of device do most cloud provider offer to securely store data such as encryption keys and certificates?***
+- ***Hardware security modules (HSM)***
+
+---
+
+### Network Protection
+---
+It will cover the following things.
+
+- Cloud Provider Network
+- Tenant Network Protection
+- Cloud Network Protection
+- Network Protection Best Practices
+---
+
+![image22.png](Images/image22.png)
+
+![image23.png](Images/image23.png)
+
+- In AZURE replace the ***Network ACL*** and ***Security Group*** with ***Network Security Group***.
+
+![image24.png](Images/image24.png)
+
+---
+
+### Compute Protection
+---
+It will cover the following things.
+
+- Infrastructure Compute Protection
+- Platform Compute Protection
+- Patching
+- Confidential Compute
+- Compute Monitoring
+---
+
+- Infrastructure Compute Protection includes ***Patch Management***, ***Resource Management***, ***Attack Surface Minimization***, ***Monitoring***, and ***OS Hardening***.  
+- A lot of compute protection is actually about just using the platform.
+
+![image15.png](Images/image25.png)
+
+- Enclave is a digital wall around your actual compute. Can be done on both hardware and software level. 
+- It saves the compute from unauthorized data access and code corruption.
+
+![image15.png](Images/image26.png)
+
+---
+
+### Regulatory Compliance in the Cloud 
+---
+It will cover the following things.
+
+- Cloud Provider Regulatory Support
+- Tenant Responsibilities
+- Common Protected Data 
+---
+
+![image28.png](Images/image28.png)
+
+![image29.png](Images/image29.png)
+
+***Who is responsible for ensuring that a cloud provider's service offerings are compliant with your sensitive data workload?***
+- ***The customer***
+---
+---
