@@ -1,6 +1,6 @@
 # ICCA Exam Notes
 
-![image](https://github.com/iabdullah215/ICCA-Notes/assets/121729444/a15f1057-ee75-44eb-9438-8a2a7cfa749c)
+![image](certificate.PNG)
 
 ## 1. Cloud Basics
 
