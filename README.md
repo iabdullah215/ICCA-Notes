@@ -454,9 +454,13 @@ It will cover the following things.
 ---
 
 **R1** -- `Revoke` -- Revoke the permissions -- Isolation 
+
 **R2** -- `Reset` -- Sessions Tokens -- API Keys -- Resources access keys -- Try Rest
+
 **R3** -- `Review` -- Review with IT and stake holders 
+
 **R4** -- `Remediate` -- Fix it -- Reporting -- Lesson Learned
+
 **R5** -- `Return` -- Return to operating state -- Monitor 
 
 ---
