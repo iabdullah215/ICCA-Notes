@@ -547,7 +547,7 @@ It will cover the following things.
 - Common Protected Data 
 ---
 
-![image28.png](Images/image28.png)
+![image28.png](Images/image27.png)
 
 ![image29.png](Images/image29.png)
 
