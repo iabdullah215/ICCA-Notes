@@ -5,6 +5,10 @@
 > **Note**
 > These are all the notes I took while following the INE course for ICCA certification, I strongly think everything you need to pass the exam is in this 'cheatsheet'.
 
+Notes by [@!abdu11ah](https://iabdullah.vercel.app/), exam passed with 90% score.
+
+Info about eJPT certification [here](https://security.ine.com/certifications/ejpt-certification/).  
+Read also my [blog post](https://iabdullah.vercel.app/posts/ICCA-Exam-Review) about ICCA certification.
 
 ## 1. Cloud Basics
 
