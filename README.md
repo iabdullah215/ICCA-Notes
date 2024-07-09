@@ -7,7 +7,7 @@
 
 Notes by [@!abdu11ah](https://iabdullah.vercel.app/), exam passed with 90% score.
 
-Info about eJPT certification [here](https://security.ine.com/certifications/ejpt-certification/).  
+Info about ICCA certification [here](https://ine.com/learning/certifications/internal/icca-ine-certified-cloud-associate).  
 Read also my [blog post](https://iabdullah.vercel.app/posts/ICCA-Exam-Review) about ICCA certification.
 
 ## 1. Cloud Basics
