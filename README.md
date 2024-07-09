@@ -1,6 +1,6 @@
-# ICCA Exam Notes
-
-![image](certificate.PNG)
+<p align="center">
+<img width="60%" src="./certificate.png">
+</p>
 
 ## 1. Cloud Basics
 
