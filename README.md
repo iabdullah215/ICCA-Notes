@@ -1,5 +1,5 @@
 <p align="center">
-<img width="60%" src="./certificate.png">
+<img width="60%" src="./certificate.PNG">
 </p>
 
 ## 1. Cloud Basics
