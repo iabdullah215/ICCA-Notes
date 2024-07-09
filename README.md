@@ -2,6 +2,10 @@
 <img width="60%" src="./certificate.PNG">
 </p>
 
+> **Note**
+> These are all the notes I took while following the INE course for ICCA certification, I strongly think everything you need to pass the exam is in this 'cheatsheet'.
+
+
 ## 1. Cloud Basics
 
 ### What is the cloud:
